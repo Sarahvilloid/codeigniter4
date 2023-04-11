@@ -20,69 +20,24 @@
 <header>
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
   <div class="container">
-		<img
-        src="https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/9fbd8bab-53ad-4ba8-a632-2fc75f6f28cf"
-        height="50"
-        alt="MDB Logo"
-        loading="lazy"
-      />
 		<div class="container">
 			<a class="navbar-brand" href="<?= base_url() ?>">Home</a>
-            <a class="navbar-brand" href="<?= base_url('data/insertData/') ?>">Add Student</a>
+            <a class="navbar-brand" href="<?= base_url('data/insertData/') ?>">Input Data</a>
+
             <a class="navbar-brand" href="<?= base_url('login') ?>">Log Out</a>
             <a class="navbar-brand" href="<?= base_url('report') ?>">Report</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-			<div class="collapse navbar-collapse" id="navbarNav">
-				<ul class="navbar-nav">
-
-				</ul>
-			</div>
 		</div>
 	</nav>
 <header>
-
-<div
-    class="p-1 text-center bg-image"
-    style="
-      background-image: url('https://i0.wp.com/dianisa.com/wp-content/uploads/2022/12/2.-Wallpaper-HD-Landscape-Desktop-Keren.jpg?resize=1000%2C600&ssl=1');
-      height: 500px;
-    "
-  >
-  
-
-<div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
-      <div class="d-flex justify-content-center align-items-center h-100">
-        <div class="fs-1 text-center bg-image">
-        <div class="text-white">
-        <h1 class="fs-2">HOLLA!!!
-        <h1 class="fs-1">INI WEBSITE HAFIZ NURUL IMAN
-      
-
-      </div>
-      </div>
-      </h1>
-          </h1>
-        </div>
-      </div>
-    </div>
-  </div>
 
   <!-- Background image -->
 </header>
 <!--Main Layout-->
 <main class="text-center my-5">
 
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-
-        <p align="justify">.</p>
-
-      </div>
-    </div>
-  </div>
 
 </main>
 <!--Main Layout-->
@@ -97,10 +52,10 @@
     <table id="example" class="table table-striped" style="width:100%">
         <thead>
         <tr>
-            <td>Nim</td>
-            <td>nama</td>
-            <td>Fakultas</td>
-            <td>Alamat</td>
+            <td>Nik</td>
+            <td>Nama Muzakki</td>
+            <td>Jenis Pembayaran</td>
+            <td>Nominal</td>
         </tr>
         </thead>
 
@@ -149,71 +104,11 @@
 </body>
 <footer class="bg-light text-center text-white">
   <!-- Grid container -->
-  <div class="container p-4 pb-0">
-    <!-- Section: Social media -->
-    <section class="mb-4">
-      <!-- Facebook -->
-      <a
-        class="btn text-white btn-floating m-1"
-        style="background-color: #3b5998;"
-        href="#!"
-        role="button"
-        ><i class="fab fa-facebook-f"></i
-      ></a>
 
-      <!-- Twitter -->
-      <a
-        class="btn text-white btn-floating m-1"
-        style="background-color: #55acee;"
-        href="#!"
-        role="button"
-        ><i class="fab fa-twitter"></i
-      ></a>
-
-      <!-- Google -->
-      <a
-        class="btn text-white btn-floating m-1"
-        style="background-color: #dd4b39;"
-        href="#!"
-        role="button"
-        ><i class="fab fa-google"></i
-      ></a>
-
-      <!-- Instagram -->
-      <a
-        class="btn text-white btn-floating m-1"
-        style="background-color: #ac2bac;"
-        href="#!"
-        role="button"
-        ><i class="fab fa-instagram"></i
-      ></a>
-
-      <!-- Linkedin -->
-      <a
-        class="btn text-white btn-floating m-1"
-        style="background-color: #0082ca;"
-        href="#!"
-        role="button"
-        ><i class="fab fa-linkedin-in"></i
-      ></a>
-      <!-- Github -->
-      <a
-        class="btn text-white btn-floating m-1"
-        style="background-color: #333333;"
-        href="#!"
-        role="button"
-        ><i class="fab fa-github"></i
-      ></a>
-    </section>
-    <!-- Section: Social media -->
-  </div>
   <!-- Grid container -->
 
   <!-- Copyright -->
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-    © **:
-    <a class="text-white" href="https://mdbootstrap.com/">INI WEB</a>
-  </div>
+
   <!-- Copyright -->
 </footer>
 </html>

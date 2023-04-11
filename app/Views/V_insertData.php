@@ -9,48 +9,37 @@
     <title>Form Mahasiswa</title>
 </head>
 <body>
-<div
-    class="p-1 text-center bg-image"
-    style="
-      background-image: url('https://i0.wp.com/dianisa.com/wp-content/uploads/2022/12/2.-Wallpaper-HD-Landscape-Desktop-Keren.jpg?resize=1000%2C600&ssl=1');
-      height: 500px;
-    "
-  >
+
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-6">
-            <div class="text-white">
-                <h1>Form Mahasiswa</h1>
+            <div class="text-black">
+                <h1>Input Pembayaran</h1>
                 <form action="<?php echo base_url('data/saveData')?>" method="post">
                     <div class="form-group">
-                    <div class="text-white">
-                        <label for="nim">NIM</label>
-                        <input type="text" class="form-control" id="nim" name="nim" required>
+                    <div class="text-black">
+                        <label for="nim">Nik</label>
+                        <input type="text" placeholder="Masukkan Nik" class="form-control" id="nim" name="nim" required>
                     </div>
                     <div class="form-group">
-                    <div class="text-white">
-                        <label for="nama">Nama</label>
-                        <input type="text" class="form-control" id="nama" name="nama" required>
+                    <div class="text-black">
+                        <label for="nama">Nama Muzakki</label>
+                        <input type="text" placeholder="Masukkan Nama Anda" class="form-control" id="nama" name="nama" required>
                     </div>
                     <div class="form-group">
-                    <div class="text-white">
-                        <label for="fakultas">Fakultas</label>
-                        <input type="text" class="form-control" id="fakultas" name="fakultas" required>
+                    <div class="text-black">
+                        <label for="fakultas">Jenis Pembayaran</label>
+                        <input type="text" placeholder="Masukkan Jenis Pembayaran" class="form-control" id="fakultas" name="fakultas" required>
                     </div>
                     <div class="form-group">
-                    <div class="text-white">
-                        <label for="alamat">Alamat</label>
-                        <textarea class="form-control" id="alamat" name="alamat" rows="3" required></textarea>
+                    <div class="text-black">
+                        <label for="alamat">Nominal</label>
+                        <input type="text" placeholder="Nominal min Rp40.000" class="form-control" id="alamat" name="alamat" required>
                     </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
                     <button type="reset" class="btn btn-danger">Reset</button>
                 </form>
-            </div>
-            </div>
-            </div>
-            </div>
-            </div>
-            </div>
+
         </div>
     </div>
 
